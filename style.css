@@ -1,39 +1,54 @@
+@font-face {
+  font-family: "Excalibur Nouveau";
+  src: url('Excalibur Nouveau.ttf');
+}
+
 body{
-    text-align: center;
-    /**background-image: url(https://wallpaperaccess.com/full/3362848.jpg); **/
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2969dd34-df35-4d72-a011-2ce6e38f909a/debsxd7-bcffefd0-6b78-4719-9c9b-ba7466611bc7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5NjlkZDM0LWRmMzUtNGQ3Mi1hMDExLTJjZTZlMzhmOTA5YVwvZGVic3hkNy1iY2ZmZWZkMC02Yjc4LTQ3MTktOWM5Yi1iYTc0NjY2MTFiYzcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nuQlEDJ6I69lj1DXXshgKIfZXQx0cQznlDJFt7sQqE4);
-   
+  text-align: center;
+  /**background-image: url(https://wallpaperaccess.com/full/3362848.jpg); **/
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2969dd34-df35-4d72-a011-2ce6e38f909a/debsxd7-bcffefd0-6b78-4719-9c9b-ba7466611bc7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5NjlkZDM0LWRmMzUtNGQ3Mi1hMDExLTJjZTZlMzhmOTA5YVwvZGVic3hkNy1iY2ZmZWZkMC02Yjc4LTQ3MTktOWM5Yi1iYTc0NjY2MTFiYzcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nuQlEDJ6I69lj1DXXshgKIfZXQx0cQznlDJFt7sQqE4);
+
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #333; 
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
- 
-  .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: violet;
-  }
+  overflow: hidden;
+  background-color: #151434;
+}
 
-  p{
-    font-family:Consolas, monaco, monospace;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    box-sizing: border-box;
-  }
-  
-  h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: purple;
-  }
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #f1a8dc;
+}
+
+p{
+  font-family:Consolas, monaco, monospace;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: "Excalibur Nouveau";
+  font-size: 40pt;
+  text-align: center;
+  text-transform: uppercase;
+  color: purple;
+}
+
+img {
+  width: 20%;
+}
+
+img .logo {
+  width: 70%;
+}
