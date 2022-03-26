@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-image: url(https://wallpaperaccess.com/full/3362848.jpg);
+    /**background-image: url(https://wallpaperaccess.com/full/3362848.jpg); **/
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2969dd34-df35-4d72-a011-2ce6e38f909a/debsxd7-bcffefd0-6b78-4719-9c9b-ba7466611bc7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5NjlkZDM0LWRmMzUtNGQ3Mi1hMDExLTJjZTZlMzhmOTA5YVwvZGVic3hkNy1iY2ZmZWZkMC02Yjc4LTQ3MTktOWM5Yi1iYTc0NjY2MTFiYzcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nuQlEDJ6I69lj1DXXshgKIfZXQx0cQznlDJFt7sQqE4);
    
 }
 
@@ -23,9 +24,12 @@ body{
   }
 
   p{
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
+    font-family:Consolas, monaco, monospace;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
   }
   
   h1{
