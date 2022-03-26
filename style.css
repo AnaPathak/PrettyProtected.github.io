@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Excalibur Nouveau";
+  src: url('Excalibur Nouveau.ttf');
+}
+
 body{
     text-align: center;
     /**background-image: url(https://wallpaperaccess.com/full/3362848.jpg); **/
@@ -7,7 +12,7 @@ body{
 
 .navbar {
     overflow: hidden;
-    background-color: #333; 
+    background-color: #151434;
   }
   
   .navbar a {
@@ -20,7 +25,7 @@ body{
   }
  
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: violet;
+    background-color: #f1a8dc;
   }
 
   p{
@@ -33,7 +38,17 @@ body{
   }
   
   h1{
+    font-family: "Excalibur Nouveau";
+    font-size: 50pt;
     text-align: center;
     text-transform: uppercase;
     color: purple;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  img .logo {
+    width: 70%;
   }
